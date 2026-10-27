@@ -26,7 +26,7 @@ export default function Contact() {
   }
 
   return <main className="site-shell"><SiteHeader /><section className="inner-page contact-page"><div className="container">
-    <p className="section-kicker">CSS / Enquiries</p>
+    <p className="section-kicker">CS Services / Enquiries</p>
     <h1>Tell us about<br /><em>your project.</em></h1>
     <div className="contact-layout">
       <div>
