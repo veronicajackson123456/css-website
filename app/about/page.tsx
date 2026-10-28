@@ -13,9 +13,8 @@ export default function About() {
       <p>By bringing these areas together under one brand, CS Services provides a starting point for conversations about production requirements, creative environments and the commercial considerations surrounding film and media work.</p>
       <h2>How we approach projects</h2>
       <p>Every enquiry starts with understanding the brief. We consider the creative ambition, practical requirements and next steps that are relevant to your project.</p>
-      <h2>Director</h2>
-      <p><strong>Gillian Peat</strong></p>
-      <p>Gillian Peat is the director of CS Services Ltd. With a background in the practical and commercial side of film and media projects, Gillian focuses on helping producers and production teams navigate the real-world requirements of filming — from early planning and location considerations through to equipment, studio needs and project support. The company was established to provide clear, reliable production services for clients working across film and media in the UK.</p>
+      <h2>CEO</h2>
+      <p>Gillian Peat provides strategic leadership and a forward-looking vision, supporting the development of compelling screen productions and meaningful industry partnerships. With a focus on the creative and commercial dimensions of filmmaking, she champions collaboration between production professionals, creative talent, and industry partners. As CEO, Gillian is committed to supporting the company&apos;s growth, strengthening relationships across the film and media industry, and helping bring ambitious screen projects to life.</p>
     </div>
     <Link className="button button-amber" href="/contact">Discuss your requirements <ArrowUpRight size={16} /></Link>
   </div></section><SiteFooter /></main>

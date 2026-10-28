@@ -2,7 +2,6 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://csservices.io'),
   title: {
     default: 'CS Services — Film, Media & Production Services',
     template: 'CS Services — %s',
@@ -13,7 +12,6 @@ export const metadata: Metadata = {
     description: 'Consultancy and practical services for film and media projects.',
     type: 'website',
     siteName: 'CS Services',
-    url: 'https://csservices.io',
     images: [{ url: '/images/css-hero.png', width: 1200, height: 630, alt: 'CS Services film, media and production services' }],
   },
   twitter: {
