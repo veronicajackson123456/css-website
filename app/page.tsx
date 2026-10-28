@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { ArrowUpRight, Check, MoveRight, Phone } from 'lucide-react'
+import { ArrowUpRight, Check, Mail, MapPin, MoveRight, Phone } from 'lucide-react'
 import { SiteHeader } from '@/components/site-header'
 
 const services = [
@@ -37,7 +37,7 @@ export default function Home() {
         </div>
         <figure className="current-project-trailer">
           <video controls preload="metadata" playsInline aria-label="Official trailer for A Beautiful Kill">
-            <source src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/A%20Beautiful%20Night%20for%20A%20Beautiful%20Kill.%20A%20room%20filled%20with%20elegance%2C%20anticipation%2C%20and%20the%20first-uhW82lgmuFgdkTm4iVatXiU16RDXJ0.mp4" type="video/mp4" />
+            <source src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Trailer-hsRs41SnXpUCtI6dnbpo7ezsOnOzyD.mp4" type="video/mp4" />
             Your browser does not support the video element.
           </video>
           <figcaption><span>Official trailer</span><span>A Beautiful Kill</span></figcaption>
@@ -56,7 +56,7 @@ export default function Home() {
     <section className="process section-pad"><div className="container"><p className="section-kicker">05 / The next step</p><div className="process-heading"><h2>From brief<br />to <em>next steps.</em></h2><Link className="button button-amber" href="/contact">Make an enquiry <ArrowUpRight size={16} /></Link></div><div className="process-list">{['Tell us about your project', 'Define the requirements', 'Discuss the options', 'Move forward'].map((item, i) => <div key={item} className="process-item"><span>0{i + 1}</span><p>{item}</p><Check size={17} /></div>)}</div></div></section>
 
     <section className="closing"><div className="container closing-inner"><p className="eyebrow"><span /> Ready when you are</p><h2>Planning your<br /><em>next production?</em></h2><p>Tell us about your project and the support you are looking for. CS Services welcomes enquiries from professionals and organisations working across film and media.</p><div className="closing-actions"><Link className="button button-amber" href="/contact">Make an enquiry <ArrowUpRight size={16} /></Link><a className="closing-phone" href="tel:+443000141056"><Phone size={16} aria-hidden="true" /> Call +44 300 014 1056</a></div></div></section>
-    <footer><div className="container footer-grid"><div><div className="brand footer-brand"><span className="brand-mark">C</span><span>SS</span></div><p className="footer-desc">Consultancy and services<br />for film &amp; media.</p></div><div><p className="footer-label">Explore</p><div className="footer-links"><Link href="/services">Services</Link><Link href="/about">About CS Services</Link><Link href="/portfolio">Portfolio</Link><Link href="/contact">Contact</Link></div></div><div><p className="footer-label">Company</p><p className="legal">CS Services Ltd<br />Company number: 17500631<br /><a className="footer-phone" href="tel:+443000141056">+44 300 014 1056</a><br />71–75 Shelton Street<br />Covent Garden, London<br />WC2H 9JQ</p></div></div><div className="container footer-bottom"><span>© {new Date().getFullYear()} CS Services Ltd. All rights reserved.</span><span className="footer-legal-links"><Link href="/privacy-policy">Privacy</Link><Link href="/terms">Terms</Link><Link href="/cookie-policy">Cookies</Link><Link href="/accessibility">Accessibility</Link><Link href="/disclaimer">Disclaimer</Link></span></div></footer>
+    <footer><div className="container footer-grid"><div><div className="brand footer-brand"><span className="brand-mark">C</span><span>SS</span></div><p className="footer-desc">Consultancy and services<br />for film &amp; media.</p></div><div><p className="footer-label">Explore</p><div className="footer-links"><Link href="/services">Services</Link><Link href="/about">About CS Services</Link><Link href="/portfolio">Portfolio</Link><Link href="/contact">Contact</Link></div></div><div><p className="footer-label">Company</p><div className="legal"><p>CS Services Ltd<br />Company number: 17500631</p><a className="footer-contact-line" href="tel:+443000141056"><Phone size={14} aria-hidden="true" />+44 300 014 1056</a><a className="footer-contact-line" href="mailto:info@csservices.io"><Mail size={14} aria-hidden="true" />info@csservices.io</a><p className="footer-address"><MapPin size={14} aria-hidden="true" />71–75 Shelton Street<br /><span>Covent Garden, London<br />WC2H 9JQ</span></p></div></div></div><div className="container footer-bottom"><span>© {new Date().getFullYear()} CS Services Ltd. All rights reserved.</span><span className="footer-legal-links"><Link href="/privacy-policy">Privacy</Link><Link href="/terms">Terms</Link><Link href="/cookie-policy">Cookies</Link><Link href="/accessibility">Accessibility</Link><Link href="/disclaimer">Disclaimer</Link></span></div></footer>
   </main>
 }
 
