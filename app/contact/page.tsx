@@ -13,7 +13,7 @@ export default function Contact() {
         <div className="contact-phone-card">
           <p className="section-kicker">Call to discuss your project</p>
           <a href="tel:+443000141056">+44 300 014 1056 <Phone aria-hidden="true" /></a>
-          <p className="contact-phone-note">Speak with CS Services about the production requirements and support you are exploring.</p>
+          <p className="contact-phone-note">Speak with CS Services about the production requirements and support you are exploring.</p><a className="contact-email" href="mailto:info@csservices.io">info@csservices.io</a>
         </div>
         <img className="contact-image" src="https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1400&q=85" alt="Film camera on a production set" />
         <p className="image-note">Illustrative production imagery</p>
