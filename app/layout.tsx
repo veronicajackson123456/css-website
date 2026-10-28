@@ -7,37 +7,7 @@ export const metadata: Metadata = {
     template: 'CS Services — %s',
   },
   description: 'CS Services provides consultancy and practical services across film and media, including locations, equipment, studios and marketing support.',
-  openGraph: {
-    title: 'CS Services — Film, Media & Production Services',
-    description: 'Consultancy and practical services for film and media projects.',
-    type: 'website',
-    siteName: 'CS Services',
-    images: [{ url: '/images/css-hero.png', width: 1200, height: 630, alt: 'CS Services film, media and production services' }],
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'CS Services — Film, Media & Production Services',
-    description: 'Consultancy and practical services for film and media projects.',
-    images: ['/images/css-hero.png'],
-  },
   robots: { index: true, follow: true },
-  icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
-    apple: '/apple-icon.png',
-  },
 }
 
 export const viewport: Viewport = {
